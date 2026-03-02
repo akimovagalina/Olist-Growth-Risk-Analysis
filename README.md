@@ -1,2 +1,104 @@
-# Olist-Growth-Risk-Analysis
-Analytical project on Olist marketplace (Jan 2017 – Aug 2018), examining revenue trends, seller &amp; customer distribution, CLTV, product category performance, and delivery impact on reviews. Built multi-layer data model (Raw → Base → Mart) using BigQuery SQL, visualized in Looker Studio, with ER modeling in dbdiagram.io.
+Marketplace Growth & Risk Analysis
+
+BigQuery | SQL | Looker Studio
+
+Olist Marketplace Revenue Analysis
+
+**Overview**
+This project analyzes revenue performance and structural dynamics of the Brazilian marketplace Olist (Jan 2017 – Aug 2018).
+
+ • Revenue growth patterns and stabilization
+ • Revenue concentration risk
+ • Geographic distribution of sellers and customers
+ • Identify key sellers;
+ • Product category lifecycle behavior
+ • Operational impact on customer satisfaction
+
+The analysis was conducted using SQL (Google BigQuery).
+The ER diagram was designed in dbdiagram.io, and the dashboard was built in Looker Studio.
+
+**Data Architecture**
+
+A multi-layer analytical structure was designed:
+ • Raw Layer
+Source transactional tables.
+ • Base Layer
+Cleaned and structured data with validated joins and derived date fields.
+ • Mart Layer
+Business-ready aggregated tables supporting dashboard metrics.
+
+**Key SQL Techniques**
+
+ • CTEs
+ • Multi-table JOINs
+ • Window functions (LAG, AVG OVER, NTILE)
+ • Month-over-Month growth calculation
+ • Date-based aggregations
+ • Cumulative revenue distribution (Pareto analysis)
+
+**Data Source**
+
+Data was obtained from the publicly available dataset:
+Brazilian E-Commerce Public Dataset by Olist
+Source: Kaggle
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+The dataset contains anonymized transactional data including:
+ • orders
+ • order_items
+ • customers
+ • sellers
+ • products
+ • reviews
+Time range: January 2017 – August 2018.
+
+**Revenue Framework**
+
+Two revenue layers were analyzed:
+ • Marketplace Revenue (GMV) — total amount paid by customers
+ • Seller Revenue — revenue received by sellers (excluding marketplace markup)
+Profitability was not evaluated due to the absence of cost data.
+
+**Key Findings**
+ • After rapid expansion in 2017, revenue plateaued in 2018 at ~1.0–1.15M per month. No structural decline is observed; however, growth momentum has slowed, either customer acquisition slowdown or limited expansion into new revenue segments.
+ • SP - the state with the highest concentration of sellers and the highest total seller revenue, but Revenue per Seller low compared to other states.
+ • 542 top-performing sellers (18% of total sellers) generate 80% of Total Seller Revenue.
+ • São Paulo remains the dominant marketplace revenue driver.
+ • However, smaller states such as niche high-value regions demonstrate strong CLTV  and potential scalability. 
+ • There are 73 product categories in total, of which only 3 for 37% of Seller Revenue.
+ • Faster delivery positively impacts review scores.
+ • Certain core categories show declining share.
+
+
+**Risks**
+
+ • High seller concentration
+ • Geographic revenue dependency
+ • Category maturity and stagnation
+ • A decrease in sales in those product categories for which demand has decreased may cause a decrease in overall revenue.
+
+
+**Opportunities & Strategic Recommendations**
+
+ • Diversify seller base
+ • Expand in high-CLTV underpenetrated regions
+ • Invest in growing categories
+ • Strengthen seller retention programs
+ • Improve monitoring of declining segments
+
+
+**Tools**
+
+Google BigQuery — SQL transformations, window functions, aggregations
+Looker Studio — dashboard visualization
+dbdiagram.io — data modeling
+
+
+**Dashboard**
+
+Interactive KPI dashboard built in Looker Studio:
+	•	Revenue trends
+	•	Customer metrics
+	•	Seller distribution
+	•	Category performance
+	•	Operational KPIs
