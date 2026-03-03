@@ -18,14 +18,73 @@ The analysis was conducted using SQL (Google BigQuery).
 The ER diagram was designed in dbdiagram.io, and the dashboard was built in Looker Studio.
 
 **Data Architecture**
+## Architecture Overview
 
-A multi-layer analytical structure was designed:
- • Raw Layer
-Source transactional tables.
- • Base Layer
-Cleaned and structured data with validated joins and derived date fields.
- • Mart Layer
-Business-ready aggregated tables supporting dashboard metrics.
+This project follows a layered data modeling approach inspired by modern analytical warehouse design:
+
+**RAW → BASE → MART**
+
+- **RAW** — source transactional data (replica of original Olist dataset)
+- **BASE** — cleaned, validated and enriched data with derived fields
+- **MART** — aggregated analytical tables for business metrics and reporting
+
+This structure ensures:
+- clear separation of responsibilities
+- data consistency
+- scalability for future transformations
+- reproducible metric calculations
+
+
+---
+
+## Entity-Relationship Diagram
+
+<p align="center">
+  <img src="data_model/db_diagram.png" alt="Olist Marketplace ER Diagram" width="850"/>
+</p>
+
+<p align="center">
+  <em>Figure 1. Logical data model illustrating RAW → BASE → MART transformations and key entity relationships.</em>
+</p>
+
+
+---
+
+## Interactive Data Model
+
+The full interactive schema is available on dbdiagram:
+
+👉 **[View Interactive ER Diagram](https://github.com/akimovagalina/Olist-Growth-Risk-Analysis/blob/data_model/data_model/db_diagram.png)**
+
+---
+
+## Layer Responsibilities
+
+### 🔹 RAW Layer
+Contains unmodified source data.  
+Acts as a single source of truth and allows reprocessing if needed.
+
+### 🔹 BASE Layer
+Implements:
+- business logic transformations
+- date normalization
+- revenue calculations
+- delivery delay calculations
+- entity enrichment (customer & seller geo)
+
+This layer guarantees metric stability.
+
+### 🔹 MART Layer
+Provides:
+- revenue growth metrics (MoM, YoY, rolling windows)
+- customer LTV analytics
+- seller performance distribution
+- product category revenue ranking
+- delivery performance impact on review score
+
+All business KPIs used in reporting are calculated exclusively from MART tables.
+
+
 
 ## Data Pipeline
 
