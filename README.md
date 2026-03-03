@@ -54,7 +54,7 @@ This structure ensures:
 
 The full interactive schema is available on dbdiagram:
 
-👉 **[View Interactive ER Diagram](https://github.com/akimovagalina/Olist-Growth-Risk-Analysis/blob/data_model/data_model/db_diagram.png)**
+👉 [View ER Diagram](https://raw.githubusercontent.com/akimovagalina/Olist-Growth-Risk-Analysis/data_model/data_model/db_diagram.png)
 
 ---
 
