@@ -37,7 +37,7 @@ The project follows a layered transformation approach:
 
 2. **BASE → MART**  
    Aggregates business metrics and prepares analytical tables.  
-   👉 [View base_to_mart.sql]([sql/base_to_mart.sql](https://github.com/akimovagalina/Olist-Growth-Risk-Analysis/blob/sql/base_to_mart.sql))
+   👉 [View base_to_mart.sql](https://github.com/akimovagalina/Olist-Growth-Risk-Analysis/blob/sql/raw_to_base.sql)
 
 All KPIs visualized in Looker are calculated in the MART layer.
 
