@@ -154,11 +154,17 @@ Profitability was not evaluated due to the absence of cost data.
 - dbdiagram.io — data modeling
 
 
-**Dashboard**
+## Business Dashboard
 
-Interactive KPI dashboard built in Looker Studio:
-- Revenue trends
-- Geography of customers distribution
-- Geography of sellers distribution
-- Product category performance
-- Operational KPIs
+Interactive Looker dashboard:
+
+https://lookerstudio.google.com/reporting/58387016-4e88-4a0f-816b-3802da864ecd
+
+The dashboard includes:
+- Revenue growth trends
+- Customer LTV distribution
+- Seller concentration analysis
+- Delivery delay impact on customer satisfaction
+
+
+
