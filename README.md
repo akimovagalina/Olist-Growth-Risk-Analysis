@@ -35,7 +35,7 @@ Implements:
 - delivery delay calculations
 - entity enrichment (customer & seller geo)
 
-This layer guarantees metric stability.
+The `raw_to_base.sql` script is responsible for transforming raw transactional data into structured and analytics-ready base tables.
 
 ### MART Layer
 Provides:
@@ -46,6 +46,20 @@ Provides:
 - delivery performance impact on review score
 
 All business metrics are calculated in the base_to_mart.sql transformation layer and visualized in Looker.
+
+## 🔄 Data Pipeline
+
+The project follows a layered transformation approach:
+
+1. **RAW → BASE**  
+   Cleans, validates and enriches transactional data.  
+   👉 [View raw_to_base.sql](sql/raw_to_base.sql)
+
+2. **BASE → MART**  
+   Aggregates business metrics and prepares analytical tables.  
+   👉 [View base_to_mart.sql](sql/base_to_mart.sql)
+
+All KPIs visualized in Looker are calculated in the MART layer.
 
 ## Entity-Relationship Diagram
 
