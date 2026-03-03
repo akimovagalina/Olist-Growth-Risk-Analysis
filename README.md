@@ -54,7 +54,6 @@ The full ER diagram is available as:
 <p align="center">
 <em>Figure 1. Logical data model illustrating RAW → BASE → MART transformations and key entity relationships.</em>
 </p>
----
 
 ---
 
