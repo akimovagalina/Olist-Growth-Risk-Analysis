@@ -42,7 +42,8 @@ This structure ensures:
 <p align="center">
   <img src="data_model/db_diagram.png" alt="Olist Marketplace ER Diagram" width="850"/>
 </p>
-
+ ![ER Diagram](https://raw.githubusercontent.com/akimovagalina/Olist-Growth-Risk-Analysis/data_model/data_model/db_diagram.png)
+ [View Interactive Version on dbdiagram.io](https://raw.githubusercontent.com/akimovagalina/Olist-Growth-Risk-Analysis/data_model/data_model/db_diagram.png)
 <p align="center">
   <em>Figure 1. Logical data model illustrating RAW → BASE → MART transformations and key entity relationships.</em>
 </p>
@@ -58,8 +59,8 @@ The full interactive schema is available on dbdiagram:
 
 The full ER diagram is available as:
 
-- ![ER Diagram](https://raw.githubusercontent.com/akimovagalina/Olist-Growth-Risk-Analysis/data_model/data_model/db_diagram.png)
-- [View Interactive Version on dbdiagram.io](https://raw.githubusercontent.com/akimovagalina/Olist-Growth-Risk-Analysis/data_model/data_model/db_diagram.png)
+ ![ER Diagram](https://raw.githubusercontent.com/akimovagalina/Olist-Growth-Risk-Analysis/data_model/data_model/db_diagram.png)
+ [View Interactive Version on dbdiagram.io](https://raw.githubusercontent.com/akimovagalina/Olist-Growth-Risk-Analysis/data_model/data_model/db_diagram.png)
 ---
 
 ## Layer Responsibilities
