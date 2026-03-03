@@ -33,7 +33,7 @@ The project follows a layered transformation approach:
 
 1. **RAW → BASE**  
    Cleans, validates and enriches transactional data.  
-   👉 [View raw_to_base.sql]([sql/raw_to_base.sql](https://github.com/akimovagalina/Olist-Growth-Risk-Analysis/blob/sql/raw_to_base.sql))
+   👉 [View raw_to_base.sql](https://github.com/akimovagalina/Olist-Growth-Risk-Analysis/blob/sql/base_to_mart.sql)
 
 2. **BASE → MART**  
    Aggregates business metrics and prepares analytical tables.  
