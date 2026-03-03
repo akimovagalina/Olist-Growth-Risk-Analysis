@@ -44,7 +44,7 @@ This approach ensures clear separation of transformations and reliable metric ca
 ---
 
 🔎 Interactive version:  
-👉 [View on dbdiagram.io](https://dbdiagram.io/d/your-public-link-here)
+👉 [View on dbdiagram.io](https://github.com/akimovagalina/Olist-Growth-Risk-Analysis/blob/data_model/data_model/db_diagram.png)
 
 **Key SQL Techniques**
 
