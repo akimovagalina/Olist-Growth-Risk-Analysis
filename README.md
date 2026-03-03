@@ -51,6 +51,7 @@ The full ER diagram is available as:
 
  ![ER Diagram](https://raw.githubusercontent.com/akimovagalina/Olist-Growth-Risk-Analysis/data_model/data_model/db_diagram.png)
  [View Interactive Version on dbdiagram.io](https://raw.githubusercontent.com/akimovagalina/Olist-Growth-Risk-Analysis/data_model/data_model/db_diagram.png)
+<p align="center">
 <em>Figure 1. Logical data model illustrating RAW → BASE → MART transformations and key entity relationships.</em>
 </p>
 ---
