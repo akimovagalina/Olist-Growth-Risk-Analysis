@@ -132,19 +132,19 @@ Profitability was not evaluated due to the absence of cost data.
 
 **Risks**
 
- • High seller concentration
- • Geographic revenue dependency
- • Category maturity and stagnation
- • A decrease in sales in those product categories for which demand has decreased may cause a decrease in overall revenue.
+ - High seller concentration
+ - Geographic revenue dependency
+ - Category maturity and stagnation
+ - A decrease in sales in those product categories for which demand has decreased may cause a decrease in overall revenue.
 
 
 **Opportunities & Strategic Recommendations**
 
- • Diversify seller base
- • Expand in high-CLTV underpenetrated regions
- • Invest in growing categories
- • Strengthen seller retention programs
- • Improve monitoring of declining segments
+ - Diversify seller base
+ - Expand in high-CLTV underpenetrated regions
+ - Invest in growing categories
+ - Strengthen seller retention programs
+ - Improve monitoring of declining segments
 
 
 **Tools**
@@ -157,8 +157,8 @@ dbdiagram.io — data modeling
 **Dashboard**
 
 Interactive KPI dashboard built in Looker Studio:
-	•	Revenue trends
-	•	Customer metrics
-	•	Seller distribution
-	•	Category performance
-	•	Operational KPIs
+	- 	Revenue trends
+	- 	Customer metrics
+	- 	Seller distribution
+	- 	Category performance
+	- 	Operational KPIs
