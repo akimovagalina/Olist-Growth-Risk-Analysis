@@ -8,8 +8,8 @@ Olist Marketplace Revenue Analysis
 
 This project analyzes revenue performance and structural dynamics of the Brazilian marketplace Olist (Jan 2017 – Aug 2018).
 
- • Revenue growth patterns and stabilization
- • Revenue concentration risk
+ - Revenue growth patterns and stabilization
+ - Revenue concentration risk
  • Geographic distribution of sellers and customers
  • Identify key sellers;
  • Product category lifecycle behavior
