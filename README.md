@@ -149,9 +149,9 @@ Profitability was not evaluated due to the absence of cost data.
 
 **Tools**
 
-Google BigQuery — SQL transformations, window functions, aggregations
-Looker Studio — dashboard visualization
-dbdiagram.io — data modeling
+- Google BigQuery — SQL transformations, window functions, aggregations
+- Looker Studio — dashboard visualization
+- dbdiagram.io — data modeling
 
 
 **Dashboard**
