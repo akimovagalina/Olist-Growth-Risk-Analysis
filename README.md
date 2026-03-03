@@ -27,6 +27,20 @@ Cleaned and structured data with validated joins and derived date fields.
  • Mart Layer
 Business-ready aggregated tables supporting dashboard metrics.
 
+## Data Pipeline
+
+The project follows a layered transformation approach:
+
+1. **RAW → BASE**  
+   Cleans, validates and enriches transactional data.  
+   👉 [View raw_to_base.sql](sql/raw_to_base.sql)
+
+2. **BASE → MART**  
+   Aggregates business metrics and prepares analytical tables.  
+   👉 [View base_to_mart.sql](sql/base_to_mart.sql)
+
+All KPIs visualized in Looker are calculated in the MART layer.
+
 **Key SQL Techniques**
 
  • CTEs
