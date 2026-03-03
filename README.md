@@ -5,6 +5,7 @@ BigQuery | SQL | Looker Studio
 Olist Marketplace Revenue Analysis
 
 **Overview**
+
 This project analyzes revenue performance and structural dynamics of the Brazilian marketplace Olist (Jan 2017 – Aug 2018).
 
  • Revenue growth patterns and stabilization
