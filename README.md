@@ -19,13 +19,32 @@ The ER diagram was designed in dbdiagram.io, and the dashboard was built in Look
 
 **Data Architecture**
 
-A multi-layer analytical structure was designed:
- • Raw Layer
-Source transactional tables.
- • Base Layer
-Cleaned and structured data with validated joins and derived date fields.
- • Mart Layer
-Business-ready aggregated tables supporting dashboard metrics.
+The project follows a three-layer analytical structure:
+
+**RAW → BASE → MART**
+
+- **RAW** – original transactional data  
+- **BASE** – cleaned and enriched tables with derived metrics  
+- **MART** – aggregated datasets for business analytics and KPIs  
+
+This approach ensures clear separation of transformations and reliable metric calculation.
+
+---
+
+## Entity-Relationship Diagram
+
+<p align="center">
+  <img src="data_model/db_diagram.png" alt="Olist Marketplace ER Diagram" width="850"/>
+</p>
+
+<p align="center">
+  <em>Figure 1. Logical data model showing RAW → BASE → MART layers and key relationships.</em>
+</p>
+
+---
+
+🔎 Interactive version:  
+👉 [View on dbdiagram.io](https://github.com/akimovagalina/Olist-Growth-Risk-Analysis/blob/data_model/data_model/db_diagram.png)
 
 **Key SQL Techniques**
 
