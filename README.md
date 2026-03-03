@@ -23,11 +23,11 @@ The project follows a three-layer analytical structure:
 
 **RAW → BASE → MART**
 
-### 🔹 RAW Layer
+### RAW Layer
 Contains unmodified source data.  
 Acts as a single source of truth and allows reprocessing if needed.
 
-### 🔹 BASE Layer
+### BASE Layer
 Implements:
 - business logic transformations
 - date normalization
@@ -37,7 +37,7 @@ Implements:
 
 This layer guarantees metric stability.
 
-### 🔹 MART Layer
+### MART Layer
 Provides:
 - revenue growth metrics (MoM, YoY, rolling windows)
 - customer LTV analytics
