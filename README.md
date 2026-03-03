@@ -23,13 +23,29 @@ The project follows a three-layer analytical structure:
 
 **RAW → BASE → MART**
 
-- **RAW** – original transactional data  
-- **BASE** – cleaned and enriched tables with derived metrics  
-- **MART** – aggregated datasets for business analytics and KPIs  
+### 🔹 RAW Layer
+Contains unmodified source data.  
+Acts as a single source of truth and allows reprocessing if needed.
 
-This approach ensures clear separation of transformations and reliable metric calculation.
+### 🔹 BASE Layer
+Implements:
+- business logic transformations
+- date normalization
+- revenue calculations
+- delivery delay calculations
+- entity enrichment (customer & seller geo)
 
----
+This layer guarantees metric stability.
+
+### 🔹 MART Layer
+Provides:
+- revenue growth metrics (MoM, YoY, rolling windows)
+- customer LTV analytics
+- seller performance distribution
+- product category revenue ranking
+- delivery performance impact on review score
+
+All business metrics are calculated in the base_to_mart.sql transformation layer and visualized in Looker.
 
 ## Entity-Relationship Diagram
 
