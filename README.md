@@ -158,7 +158,7 @@ Profitability was not evaluated due to the absence of cost data.
 
 Interactive KPI dashboard built in Looker Studio:
 - Revenue trends
-- Customer metrics
-- Seller distribution
-- Category performance
+- Geography customer metrics
+- Geography of sellers distribution
+- Product category performance
 - Operational KPIs
