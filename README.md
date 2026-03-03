@@ -34,9 +34,6 @@ This structure ensures:
 - scalability for future transformations
 - reproducible metric calculations
 
-
----
-
 ## Entity-Relationship Diagram
 
 </p>
@@ -73,7 +70,6 @@ Provides:
 - delivery performance impact on review score
 
 All business KPIs used in reporting are calculated exclusively from MART tables.
-
 
 
 ## Data Pipeline
