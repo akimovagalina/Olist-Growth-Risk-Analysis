@@ -158,7 +158,7 @@ Profitability was not evaluated due to the absence of cost data.
 
 Interactive Looker dashboard:
 
-https://lookerstudio.google.com/s/sKZmxODhXSs
+https://lookerstudio.google.com/reporting/58387016-4e88-4a0f-816b-3802da864ecd/page/y4knF?s=sKZmxODhXSs
 
 The dashboard includes:
 - Revenue growth trends
