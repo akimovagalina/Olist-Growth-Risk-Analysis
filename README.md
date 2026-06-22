@@ -87,6 +87,21 @@ The project follows a layered transformation approach:
 
 All KPIs visualized in Looker are calculated in the MART layer.
 
+## 🔄 Data Pipeline
+
+The project follows a layered transformation approach:
+
+1. **RAW → BASE**  
+   Cleans, validates and enriches transactional data.  
+   👉 [View raw_to_base.sql](https://github.com/akimovagalina/Olist-Growth-Risk-Analysis/blob/sql/base_to_mart.sql)
+
+2. **BASE → MART**  
+   Aggregates business metrics and prepares analytical tables.  
+   👉 [View base_to_mart.sql](https://github.com/akimovagalina/Olist-Growth-Risk-Analysis/blob/sql/raw_to_base.sql)
+
+All KPIs visualized in Looker are calculated in the MART layer.
+
+
 **Key SQL Techniques**
 
  - CTEs
